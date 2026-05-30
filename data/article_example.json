@@ -1,0 +1,39 @@
+{
+  "levels": [
+    {
+      "name": "level_1",
+      "sites": [
+        { "id": "Fac1", "fixed_cost": 70 },
+        { "id": "Fac2", "fixed_cost": 50 }
+      ]
+    },
+    {
+      "name": "level_2",
+      "sites": [
+        { "id": "Fac3", "fixed_cost": 30 },
+        { "id": "Fac4", "fixed_cost": 20 },
+        { "id": "Fac5", "fixed_cost": 20 },
+        { "id": "Fac6", "fixed_cost": 40 }
+      ]
+    }
+  ],
+  "clients": [
+    { "id": "Client1" },
+    { "id": "Client2" },
+    { "id": "Client3" },
+    { "id": "Client4" },
+    { "id": "Client5" }
+  ],
+  "transitions": [
+    {
+      "Fac1": { "Fac3": 58, "Fac4": 44, "Fac5": 67, "Fac6": 29 },
+      "Fac2": { "Fac3": 23, "Fac4": 74, "Fac5": 15, "Fac6": 38 }
+    },
+    {
+      "Fac3": { "Client1": 38, "Client2": 47, "Client3": 42, "Client4": 9, "Client5": 15 },
+      "Fac4": { "Client1": 13, "Client2": 52, "Client3": 48, "Client4": 54, "Client5": 18 },
+      "Fac5": { "Client1": 57, "Client2": 63, "Client3": 13, "Client4": 41, "Client5": 36 },
+      "Fac6": { "Client1": 41, "Client2": 15, "Client3": 54, "Client4": 43, "Client5": 22 }
+    }
+  ]
+}
