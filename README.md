@@ -152,7 +152,3 @@ Se o Gurobi estiver configurado corretamente, o script deverá retornar o valor 
 	</tr>
 </table>
 
-## Observação
-
-Este projeto foi estruturado para apoiar a apresentação e a arguição individual. Caso deseje, posso, em seguida, adaptar o texto para um formato ainda mais acadêmico, com introdução, metodologia, implementação e conclusão em estilo de relatório.
-
